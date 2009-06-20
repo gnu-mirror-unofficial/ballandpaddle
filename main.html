@@ -4,15 +4,22 @@
 <h2>Ball and Paddle</h2>
 
 <h3>News</h3>
+<p>
+<b>2009-06-20</b><br/>
+The sources are now in Bazaar. As you can see, I've been using Bazaar from the beginning but the Savannah support wasn't there. I recently found out that it was available so I pushed it in. Check it out <a href="http://bzr.savannah.gnu.org/lh/ballandpaddle">here</a>. 
+</p>
+
+<p>
 <b>2008-09-30</b><br/>
 Finally, after more than a month, version 0.8.0 is released!
 This version has a new script system using GNU Guile.  
 Almost everything can be scripted. Fonts used, skins, graphics for almost anything, which powerups are used, are more! 
-<br/>
-<br/>
+</p>
 
+<p>
 <b>2008-08-26</b><br/>
 Website finally up! Version 0.7.1 has been released and version 0.8.0 will be released very soon with new graphics/levelsets and a completely new extension system using GNU Guile. 
+</p>
 
 
 <h3>Introduction to Ball and Paddle</h3>
@@ -54,6 +61,23 @@ It can also be found on one of <a href="/prep/ftp.html">our FTP mirrors</a>;
 please use a mirror if possible.
 </p>
 
+<h3>Development</h3>
+<p>
+Ball and Paddle uses Bazaar for version control. Get it by
+
+<pre>bzr branch http://bzr.savannah.gnu.org/r/ballandpaddle</pre>
+
+or you can <a href="http://bzr.savannah.gnu.org/lh/ballandpaddle">browse</a> the sources. 
+</p>
+
+<p>It requires SDL, SDL_image, SDL_mixer, SDL_ttf, and <a href="http://www.gnu.org/software/guile">GNU guile</a>. 
+</p>
+
+<p>
+We currently need more and complete level sets for the game to be really fun. 
+Also, I'd be willing to look into a level format that doesn't require guile (so that an editor could be made) but uses guile in the backend i.e. the level format refers back to guile code/functions. 
+</p>
+
 <h3>Documentation</h3>
 
 <p>
@@ -69,24 +93,6 @@ You may also find more information about Ball and Paddle by running
 Ball and Paddle has two mailing lists: 
 <a href="mailto:help-ballandpaddle@gnu.org">&lt;help-ballandpaddle@gnu.org&gt;</a> and 
 <a href="mailto:bug-ballandpaddle@gnu.org">&lt;bug-ballandpaddle@gnu.org&gt;</a>.
-</p>
-
-<p>
-The main discussion list is 
-<a href="mailto:help-ballandpaddle@gnu.org">&lt;help-ballandpaddle@gnu.org&gt;</a>,
-and is used to discuss all aspects of Ball and Paddle, including development and porting.
-</p>
-
-<p>
-There is a separate list used for reporting bugs, 
-<a href="mailto:bug-ballandpaddle@gnu.org">&lt;bug-ballandpaddle@gnu.org&gt;</a>. 
-For details on submitting a bug report, please see the section 
-<a href="#bug">Report a Bug</a> below.
-</p>
-
-<p>
-Announcements about Ball and Paddle and most other GNU software are made on
-<a href="mailto:info-gnu@gnu.org">&lt;info-gnu@gnu.org&gt;</a>.
 </p>
 
 <p>
@@ -149,11 +155,5 @@ permitted worldwide, without royalty, in any medium, provided this
 notice, and the copyright notice, are preserved.
 </p>
 
-<p>
-Updated:
-<!-- timestamp start -->
-$Date: 2009/01/16 06:06:12 $
-<!-- timestamp end -->
-</p>
 </body>
 </html>
